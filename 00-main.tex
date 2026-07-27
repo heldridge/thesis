@@ -560,7 +560,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%% END MATH MACROS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 
-
+\input{sections/preamble}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%% DOCUMENT BEGINS HERE %%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -622,11 +622,13 @@
 
 
 %%%% include all the main text chapters
-\include{06-chapter-1}
-\include{07-chapter-2}
-\include{08-chapter-3}
-\include{09-chapter-4}
-\include{10-chapter-5}
+\include{sections/mdss}
+
+% \include{06-chapter-1}
+% \include{07-chapter-2}
+% \include{08-chapter-3}
+% \include{09-chapter-4}
+% \include{10-chapter-5}
 
 %% add more main text technical chapters if you have
 
@@ -649,9 +651,9 @@
 \MainTextSpacing                    
 \fancyhead[L]{\appendixname\ \thechapter. \nouppercase \leftmark}
 
-
-\include{11-appendix-A}
-\include{12-appendix-B}
+\hme{Appendices go here}
+% \include{11-appendix-A}
+% \include{12-appendix-B}
 
 %% add more appendix chapters if you have 
 
